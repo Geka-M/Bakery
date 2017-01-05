@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Alegreya-Regular;
+    src: url(../fonts/alegreya/Alegreya-Regular.otf);
+}
+@font-face {
+    font-family: Alegreya-Bold;
+    src: url(../fonts/alegreya/Alegreya-Bold.otf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(../fonts/proximanova/Proxima-Nova-Regular.otf);
+}
+
+@font-face {
+    font-family: Scriptina;
+    src: url(../fonts/scriptina/SCRIPTIN.ttf);
+}

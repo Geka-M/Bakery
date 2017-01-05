@@ -1,0 +1,329 @@
+body{
+    background: white;
+    margin: 0 auto;
+}
+.container{
+    width: 78.75%;
+    margin: 0 auto;
+}
+div{
+    display: block;
+}
+
+
+
+/*BLOCK HEADER*/
+header{
+    background: url("../images/bg_welcome.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.top-menu{
+    /*background: url("../images/bg-top-nav.png") no-repeat;*/
+    background-size: 100%;
+    overflow: hidden;
+    background-color: rgba(86, 83, 76, 0.6);
+}
+
+.logo{
+    display: inline-block;
+    float: left;
+    margin: 15px 0 15px 170px;
+    position: relative;
+    text-align: center;
+}
+
+.top-menu_nav{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.top-menu_nav ul{
+    margin: 0 0 0 104px;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.top-menu_nav ul li{
+    float: left;
+    margin: 29px 0 31px 0;
+}
+
+.top-menu_nav ul li:last-child{
+    margin-right: 0;
+}
+
+.top-menu_nav ul li a{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: Alegreya-Regular;
+    letter-spacing: 4px;
+}
+.top-menu_nav ul li a:hover{
+    color: #421e0b;
+}
+
+.top-menu_nav ul li::after{
+    content: "~";
+    color: white;
+    float: right;
+    margin: auto 39px;
+}
+.top-menu_nav ul li:last-child:after{
+    content: "";
+    margin: 0;
+}
+
+
+.top-menu_icon{
+    display: inline-block;
+    text-align: center;
+    float: right;
+    list-style: none;
+    margin: 0 auto;
+}
+.top-menu_icon a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    margin: 31px 17px auto auto;
+}
+.top-menu_icon a:hover{
+    color: #421e0b;
+}
+
+.welcome{
+    text-align: center;
+}
+.welcome_text-header{
+    color: white;
+    margin: 222px 0 0 0;
+    font-size: 92px;
+    font-family: PlayfairDisplay-Bold;
+}
+.welcome_text-header::after{
+    content: " ";
+    background: url("../images/welcome_separator.png") no-repeat;
+    text-align: center;
+    display: block;
+    padding: 12px;
+    margin: 62px auto;
+    width: 14%;
+}
+.welcome p{
+    font-size: 24px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-family: Proxima Nova Regular;
+    width: 66%;
+    color: white;
+}
+
+.welcome_btn{
+    width: 198px;
+    height: 50px;
+    background-color: rgba(86, 83, 76, 0.6);
+    display: block;
+    border: 1px dashed #9e9c93;
+    margin: 68px auto 214px auto;
+    outline: none;
+}
+.welcome_btn:hover{
+    background-color: rgba(86, 83, 76, 0.9);
+}
+.welcome-btn_text{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: Alegreya-Bold;
+    color: white;
+}
+.welcome_btn:hover .welcome-btn_text{
+    color: #b08e40;
+}
+/*END HEADER*/
+
+/*BLOCK CAKES*/
+.cakes{
+    background: url("../images/bg_cakes.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.cakes_content-left{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 95px auto 0 auto;
+}
+.cakes_content-left_header{
+    width: 100%;
+    margin: 0 auto;
+}
+.cakes_content-left_header span{
+    font-size: 48px;
+    font-family: Alegreya-Bold;
+    color: #56534c;
+    letter-spacing: 1px;
+}
+.cakes_content-left_header p{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Alegreya-Bold;
+    color: #a47d5e;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.cakes_content-left_text{
+    margin-top: 70px;
+
+}
+.cakes_content-left_text p{
+    font-size: 14px;
+    color: #56534c;
+    font-family: "Proxima Nova Regular";
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.cakes_content-left_chef{
+    margin: 45px auto 0 auto;
+    text-align: center;
+}
+
+.chef-cook{
+    font-size: 24px;
+    font-family: Alegreya-Bold;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    color: #56534c;
+}
+
+.cakes_chef-profile{
+    margin: 45px auto 0 auto;
+
+    display: inline-block;
+}
+
+.cakes_chef-profile img{
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+}
+.cakes_chef-profile::before{
+    content: "Benito";
+    font-size: 24px;
+    font-family: Alegreya-Regular;
+    letter-spacing: 1px;
+    color: #56534c;
+    float: left;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+    padding: 12px 16px;
+    margin: 28px 28px 0 auto;
+}
+.cakes_chef-profile::after{
+    content: "Gaspare";
+    font-size: 24px;
+    font-family: Alegreya-Regular;
+    letter-spacing: 1px;
+    color: #56534c;
+    float: left;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+    padding: 12px 10px;
+    margin:  28px auto auto 28px;
+}
+
+.cakes_content-left_footer {
+    text-align: center;
+    margin: 40px auto 0 auto;
+    width: 70%;
+}
+.cakes_content-left_footer span{
+    font-size: 24px;
+    font-family: Scriptina;
+    color: #a47d5e;
+    text-align: center;
+    line-height: 30px;
+}
+.cakes_content-left_footer::before{
+    content: open-quote;
+    font-size: 60px;
+    float: left;
+    color: #b6b5b2;
+    position: relative;
+    bottom: 26px;
+    right: 30px;
+}
+.cakes_content-left_footer::after{
+    content: close-quote;
+    font-size: 60px;
+    float: right;
+    color: #b6b5b2;
+    position: relative;
+    top: 26px;
+    left: 30px;
+}
+
+
+.cakes_content-right{
+    width: 50%;
+    float: right;
+    margin: 110px auto 101px auto;
+}
+.cakes_content-right img{
+    overflow: hidden;
+    position: relative;
+    top: 16px;
+    left: 16px;
+
+}
+
+/*END BLOCK CAKES*/
+
+/*BLOCK PANCAKES*/
+.pancakes{
+	background: url("../images/bg_pancakes.png") no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+}
+
+.pacakes_widget{
+	background: url("../images/pancakes_widget.png");
+	background-size: 100%;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	z-index: 5;
+}
+/*END BLOCK PANCAKES*/
+
+/*BLOCK BREAKFAST*/
+.breakfast{
+
+}
+/*END BLOCK BREAKFAST*/
+
+/*BLOCK THE-SANDWICH*/
+.the-sandwich{
+
+}
+/*END BLOCK THE-SANDWICH*/
+
+/*BLOCK FOOTER*/
+footer{
+
+}
+/*END BLOCK FOOTER*/
